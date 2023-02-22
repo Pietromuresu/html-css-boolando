@@ -3,3 +3,210 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: HelveticaNow,Helvetica,sans-serif;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+.price {
+  color: red;
+}
+
+.border {
+  border: solid black;
+}
+
+.sostenibilità {
+  position: absolute;
+  background-color: #008001;
+  color: white;
+  bottom: 90px;
+  left: 62px;
+  padding: 5px 10px;
+}
+
+.left-zero {
+  left: 0;
+}
+
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #FF6801;
+  height: 60px;
+  box-shadow: 0 0 5px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-età ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+.menu-età ul li a {
+  text-decoration: none;
+   color: white;
+   margin: 0 5px;
+}
+
+
+header .logo-header a img {
+  height: 30px;
+}
+
+
+
+
+header .menu-account ul{
+  display: flex;
+  list-style: none;
+}
+
+header .menu-account ul li a {
+  color: white;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+
+/* main */
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  
+}
+
+
+.row .card {
+  position: relative;
+  height: 100%;
+  
+  margin: auto;
+
+}
+
+
+
+.card .immagine-prodotto {
+  display: flex;
+}
+
+
+.card .immagine-prodotto img {
+  height: 510px;
+}
+
+
+.card .immagine-prodotto img:last-child {
+  position: absolute;
+  top: 0;
+  left:0;
+  display: none;
+}
+
+
+.card .immagine-prodotto:hover img:last-child {
+ display: block;
+}
+
+
+.under-photo>span{
+  display: block;
+}
+
+.marchio {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+
+.heart-box {
+  position: absolute;
+  top: 10px;
+  right: 0;
+
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+.heart-box:hover i {
+  color: red;
+}
+
+
+.tag-sconto {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #1A1A1A ;
+  padding: 30px;
+
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+footer ul{
+  display: flex;
+  justify-content: ;
+  list-style: none;
+}
+
+footer ul li {
+  
+  margin-right: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+
+footer .trovaci-anche a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+  
+}
