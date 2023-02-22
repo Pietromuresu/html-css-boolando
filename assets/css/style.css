@@ -40,6 +40,10 @@ body {
   left: 0;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 
 /* header */
 
@@ -68,6 +72,10 @@ header .container {
   text-decoration: none;
    color: white;
    margin: 0 5px;
+}
+
+.menu-età ul li a:hover{
+  text-decoration: underline;
 }
 
 
